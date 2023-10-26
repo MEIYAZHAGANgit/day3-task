@@ -7,6 +7,6 @@ myReq.addEventListener("load",function(){
     console.log(val.name)
     console.log(val.region)
     console.log(val.subregion)
-    console.log(population)
+    console.log(val.population)
 } 
 });
