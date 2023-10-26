@@ -4,9 +4,7 @@ myReq.send()
 myReq.addEventListener("load",function(){
     const obj=Json.parse(this.response)
     for(let val of obj){
-    console.log(val.name)
-    console.log(val.region)
-    console.log(val.subregion)
-    console.log(val.population)
+        console.log("Country:"+val.name+,"Region:"+val.region+,"Subregion:"+val.subregion,"Population:"+val.population)
+  
 } 
 });
